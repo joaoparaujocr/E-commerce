@@ -14,7 +14,7 @@ function createItemList(arr) {
     let cardItem = `
       <li class="item" id="${item.id}">
         <div class="img_product">
-          <img src="${item.img}" alt="">
+          <img src="process.env.PUBLIC_URL${item.img}" alt="">
         </div>
         <div class="item_info">
           <p class="tag_product">${item.tag[0]}</p>
