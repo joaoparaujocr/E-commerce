@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Weartake</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        Weartake
+      </div>
+
+      <nav id="navbar">
+        <button id="btn-mobile">
+          <span></span>
+        </button>
+        <ul>
+          <li><a href="">Todos</a></li>
+          <li><a href="">Acessórios</a></li>
+          <li><a href="">Calçados</a></li>
+          <li><a href="">Camisetas</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="products">
+        <ul id="list_products"></ul>
+      </section>
+      <aside>
+        <div class="box_search">
+          <input type="text" placeholder="Digite sua pesquisa" id="search">
+          <input type="button" value="Pesquisar">
+        </div>
+        <div class="shopping_cart">
+          <h1>Carrinho de compras</h1>
+          <button id="btn_close_cart">X</button>
+          <ul class="list_cart"></ul>
+          <ul class="info_buy"></ul>
+        </div>
+        <button id="button_kart_mobile">Carrinho</button>
+      </aside>
+    </main>
+
+    <script src="./js/database.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
